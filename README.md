@@ -11,7 +11,13 @@ Let's start with this: this `README.md` file is being displayed (probably!) on G
 
 The reason this website is important is that it allows me not only to keep all the versions of a program together, but it allows me to keep the code for my programs in a place where, if my house floods or something, it won't be rusted to death on my hard drive. :p I also use GitHub to make it easier for me to edit the same code on different machines.
 
-If you poke around this *repository* a little bit, you'll see that I have included several *branches* of the code we wrote in class. These branches each represent different versions of the code, each with different bugs or features. I'll go over that later.
+If you poke around this *repository* a little bit, you'll see that I have included several *branches* of the code we wrote in class. These branches each represent different versions of the code, each with different bugs or features.
+
+**[Short version][short]**  
+This version of the program is significantly shorter (21 lines vs. 35, so about 40% shorter) in terms of line count. I achieved this primarily by making use of what might be called functional programming, in a "declarative" style. For example, instead of explicitly writing a `for` loop as in the original version, I write an expression that creates a sequence of numbers similar to the way we did it using the `for` loop. Maybe see if you can find what I'm talking about?
+
+**[Cheating version][cheat]**  
+This version cheats. One player has a greater chance of winning than the other. Can you spot why?
 
 ### Licensing
 This repository also contains a file called `LICENSE.md`. That's a very important file! If you don't see a license with someone else's code, you *can't legally use it.* If you do see a license, you may be able to use it subject to the terms of the license.
@@ -31,3 +37,5 @@ I thought I'd list some things you could do to the code:
 
 ### Left as an exercise to the reader
 Do you think you guys could rewrite the entire program in a totally different language? Actually, you could *totally* do it with a GUI this time. :D
+
+[short]:http://www.google.com
