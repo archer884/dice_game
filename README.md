@@ -19,6 +19,9 @@ This version of the program is significantly shorter (21 lines vs. 35, so about 
 **[Cheating version][cheat]**  
 This version cheats. One player has a greater chance of winning than the other. Can you spot why?
 
+**[Wrong version][wrong]**  
+This version improves on the original by using a more efficient random number generator algorithm. However, I have made a small mistake in the code. Think you can find it?
+
 ### Licensing
 This repository also contains a file called `LICENSE.md`. That's a very important file! If you don't see a license with someone else's code, you *can't legally use it.* If you do see a license, you may be able to use it subject to the terms of the license.
 
@@ -39,3 +42,5 @@ I thought I'd list some things you could do to the code:
 Do you think you guys could rewrite the entire program in a totally different language? Actually, you could *totally* do it with a GUI this time. :D
 
 [short]:http://www.google.com
+[cheat]:http://www.google.com
+[wrong]:http://www.google.com
