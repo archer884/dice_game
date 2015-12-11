@@ -41,6 +41,6 @@ I thought I'd list some things you could do to the code:
 ### Left as an exercise to the reader
 Do you think you guys could rewrite the entire program in a totally different language? Actually, you could *totally* do it with a GUI this time. :D
 
-[short]:http://www.google.com
-[cheat]:http://www.google.com
-[wrong]:http://www.google.com
+[short]:https://github.com/archer884/dice_game/tree/short-version
+[cheat]:https://github.com/archer884/dice_game/tree/cheating-version
+[wrong]:https://github.com/archer884/dice_game/tree/wrong-version
