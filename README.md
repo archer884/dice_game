@@ -14,10 +14,13 @@ The reason this website is important is that it allows me not only to keep all t
 If you poke around this *repository* a little bit, you'll see that I have included several *branches* of the code we wrote in class. These branches each represent different versions of the code, each with different bugs or features.
 
 **[Short version][short]**  
-This version of the program is significantly shorter (21 lines vs. 35, so about 40% shorter) in terms of line count. I achieved this primarily by making use of what might be called functional programming, in a "declarative" style. For example, instead of explicitly writing a `for` loop as in the original version, I write an expression that creates a sequence of numbers similar to the way we did it using the `for` loop. Maybe see if you can find what I'm talking about?
+This version of the program is significantly shorter (21 lines vs. 35, so about 40% shorter) in terms of line count. What have I changed in order to make this so much shorter?
 
 **[Cheating version][cheat]**  
 This version cheats. One player has a greater chance of winning than the other. Can you spot why?
+
+**[Wrong version][wrong]**  
+This version improves on the original by using a more efficient random number generator algorithm. However, I have made a small mistake in the code. Think you can find it? (It might help to run this version and see what it does!)
 
 ### Licensing
 This repository also contains a file called `LICENSE.md`. That's a very important file! If you don't see a license with someone else's code, you *can't legally use it.* If you do see a license, you may be able to use it subject to the terms of the license.
@@ -39,3 +42,5 @@ I thought I'd list some things you could do to the code:
 Do you think you guys could rewrite the entire program in a totally different language? Actually, you could *totally* do it with a GUI this time. :D
 
 [short]:http://www.google.com
+[cheat]:http://www.google.com
+[wrong]:http://www.google.com
