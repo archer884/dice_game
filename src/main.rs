@@ -4,12 +4,10 @@ use rand::Rng;
 
 fn main() {
     loop {
-        match (&roll(), &roll()) {
-            (p1, p2) if p1 != p2 => {
-                println!("{} wins!", if p1 > p2 { "Player 1" } else { "Player 2" });
-                return;
-            },
-            _ => (),
+        let (p1, p2) = (roll(), roll());
+        if p1 != p2 {
+            println!("{} wins!", if p1 > p2 { "Player 1" } else { "Player 2" });
+            return;
         }
     }
 }
